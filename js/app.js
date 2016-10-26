@@ -2,8 +2,7 @@
 	"use strict";
 	var app = {
 		menuJson : $.ajax("http://192.168.1.40:1337/menu.json"),
-		alice : $.ajax("http://192.168.1.40:1337/alice.md"), 
-		mark : $.ajax("http://192.168.1.40:1337/example.md"), 
+		
 		init:function(){
 			app.listener();
 		},
